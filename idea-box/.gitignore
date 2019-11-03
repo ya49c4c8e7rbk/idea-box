@@ -21,3 +21,8 @@ yarn-error.log*
 *.sw?
 
 .env
+.firebase
+.firebaserc
+
+.firebase_bk
+.firebaserc_bk
