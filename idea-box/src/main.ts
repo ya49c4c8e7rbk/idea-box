@@ -4,7 +4,6 @@ import router from './router';
 import store from './store';
 
 import VueMaterial from 'vue-material';
-
 Vue.use(VueMaterial);
 
 Vue.config.productionTip = false;

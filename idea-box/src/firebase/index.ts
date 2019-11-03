@@ -13,6 +13,12 @@ const config = {
   measurementId: process.env.VUE_APP_MEASUREMENT_ID,
 };
 
-export default !firebase.apps.length
-  ? firebase.initializeApp(config)
-  : firebase.app();
+if (!firebase.apps.length) {
+  firebase.initializeApp(config);
+}
+
+export default firebase;
+
+// export default !firebase.apps.length
+//   ? firebase.initializeApp(config)
+//   : firebase.app();

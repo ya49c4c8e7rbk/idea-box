@@ -60,7 +60,7 @@
 </style>
 
 <script lang="ts">
-import * as firebase from 'firebase';
+import firebase from '@/firebase';
 
 import { Component, Vue } from 'vue-property-decorator';
 import { State, Getter, Action, Mutation } from 'vuex-class';
